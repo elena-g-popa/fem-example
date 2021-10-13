@@ -1,0 +1,56 @@
+.container{
+    width: 500px;
+    margin: 0 auto;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 48px;
+}
+
+.result{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: right;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+button{
+    width: 24.5%;
+    font-size: 1.2em;
+    background-color: rgb(194, 193, 193);
+    border: none;
+    margin: 0.25% 0;
+    padding: 20px;
+}
+
+button:active{
+    background-color: rgb(54, 54, 54);
+}
+
+button:hover{
+    background-color: rgb(223, 223, 223);
+}
+
+.row:first-of-type button:first-of-type{
+    width: 49.5%;
+}
+
+.row:last-of-type button:first-of-type{
+    width: 74.5%;
+}
+
+.row button:last-of-type{
+    background-color: orange;
+    color:white;
+}
+.row button:last-of-type:hover{
+    background-color: rgb(255, 212, 133);
+}
